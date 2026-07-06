@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Duckey Doc🦆/Productos</title>
+</head>
+<body>
+    <header>
+        <h1>Duckey Doc🦆 Sistema de Inventario</h1>
+        <nav>
+            <a href="inicio.html">Inicio</a>
+            <a href="productos.html">Mis productos</a>
+            <a href="agregar.html">Agregar producto</a>
+        </nav>
+    </header>
+
+    <main>
+
+<div id="Editar">
+    <button id="cerrar" onclick="cerrarE()">X</button>
+    <form onsubmit="editarProd(event)">
+        <label for="eN">Nombre:</label>
+        <input type="text" id="eN" required>
+        <label for="eD">Descripción:</label>
+        <textarea id="eD" required></textarea>
+        <button type="submit">Guardar Cambios</button>
+    </form>
+</div>
+
+<div id="calcularmenu">
+    <button id="cerrar2" onclick="cerrarC()">Cerrar</button>
+    <h2>Calcular precio total</h2>
+    <form onsubmit="calcularTotal(event)">
+        <P>Calcular precio por categoria(opcional)</P>
+        <select id="cCategoria">
+            <option value="todo">todos</option>
+            <option value="electrónica">Electrónica</option>
+            <option value="ropa">Ropa</option>
+            <option value="hogar">Hogar</option>
+            <option value="juguetes">Juguetes</option>
+        </select>
+        <button type="submit">Calcular</button>
+    </form>
+    <h3>Calculo de precio total:</h3>
+    <p id="resultado"></p>
+</div>
+        <section>
+            <button id="abrirb" onclick="abrirB()"></button>
+            <h2>Lista de Productos</h2>
+            <p>Aqui se mostraran los productos que hallas decido guardar.</p>
+            
+            <div id="buscarDiv">
+            <form id ="buscarp" onsubmit="filtrarProductos(event)">
+                <input type="text" placeholder="Buscar por nombre" id="bN">
+                <select id="buscar">
+                    <option value="">Buscar por categoria </option>
+                    <option value="electrónica">Electrónica</option>
+                    <option value="ropa">Ropa</option>
+                    <option value="hogar">Hogar</option>
+                    <option value="juguetes">Juguetes</option>
+            </select> 
+        <button type="submit">Buscar</button>
+        </form>
+        </div>
+            <div id="tulista">
+                <!-- Los productos se mostrarán aquí -->
+            </div>
+        </section>
+    </main>
+
+    <script src="productos.js"></script>
+    <footer>
+       </footer>
+</body>
+</html>

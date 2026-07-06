@@ -1,0 +1,188 @@
+header {
+
+    top: 0;
+    width: 100%;
+    padding: 40px;
+    background-image: url('back.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    border-radius: 10px;
+    border: 2px solid #858383;
+}
+a {
+    text-decoration: underline;
+    color: #333;
+    margin: 5px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('cover2.jpg');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin-top: 10px;
+     padding-bottom: 400px;
+}
+#product-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 20px;
+}
+article {
+    background-color: #fff8d0;
+    padding: 20px;
+    border-radius: 5px;
+     box-shadow: 0 4px 8px rgba(0,0,0,0.1), 0 0 20px rgba(0,0,255,0.2);
+
+}
+#product-form {
+    
+    display: flex;
+    flex-direction: column;
+    background-color: #fff8d0;
+    padding: 20px;
+    gap: 10px;
+}
+
+#buscarp {
+    
+    display: flex;
+   
+    flex-direction: column;
+  
+    padding: 20px;
+    gap: 0px;
+}
+
+#tulista {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+#cerrar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #d1caca;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#calcularmenu {
+    border: 2px solid #858383;
+    position: fixed;
+    top: 350px;
+    right: 600px;
+box-shadow: 0 0 10px rgba(0,0,0,0.2); /* sombra interna */
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+   display: none; 
+   background-image: url('patolentes.png');
+   background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+font-family: Arial, sans-serif;
+text-decoration:underline;
+
+}
+
+#calcularmenu form {
+        display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+}
+
+#cerrar2 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #d1caca;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#calcularmenu h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#calcularmenu h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#calcularmenu p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+#Editar{
+background-image: url('duck.jpg');
+
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+    position: fixed;
+    top: 400px;
+    right: 600px;
+align-items: center;
+
+width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+box-shadow:0 0 10px rgba(0,0,0,0.2); /* sombra interna */
+   display: none;
+
+
+
+}
+#Editar form {
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+    gap: 10px;
+}
+
+#abrirb {
+    position:absolute;
+    right:10px;
+    top:190px;
+    background-image: url("lupa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:10px;
+}
+#buscarDiv {
+    width: 300px;
+    display:none;
+     position:absolute;
+     right:20px;
+     top:190px;
+
+}
