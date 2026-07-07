@@ -3,7 +3,7 @@ header {
     top: 0;
     width: 100%;
     padding: 40px;
-    background-image: url('back.jpg');
+  background-color: #858383;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -23,8 +23,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    background-image: url('cover2.jpg');
+    background-color: #ffffff;
+    
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -38,7 +38,7 @@ body {
     gap: 20px;
 }
 article {
-    background-color: #fff8d0;
+    background-color: #a8a8a8;
     padding: 20px;
     border-radius: 5px;
      box-shadow: 0 4px 8px rgba(0,0,0,0.1), 0 0 20px rgba(0,0,255,0.2);
@@ -48,7 +48,7 @@ article {
     
     display: flex;
     flex-direction: column;
-    background-color: #fff8d0;
+    background-color: #cfcfcf;
     padding: 20px;
     gap: 10px;
 }
@@ -91,7 +91,7 @@ box-shadow: 0 0 10px rgba(0,0,0,0.2); /* sombra interna */
     padding: 20px;
     border-radius: 5px;
    display: none; 
-   background-image: url('patolentes.png');
+  background-color: #858383;
    background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
@@ -141,7 +141,7 @@ text-decoration:underline;
 
 
 #Editar{
-background-image: url('duck.jpg');
+background-color: aliceblue;
 
 background-repeat: no-repeat;
 background-position: center;
